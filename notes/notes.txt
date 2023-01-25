@@ -6,6 +6,7 @@
 => Instalamos tailwind como PostCSS
 Instalamos las librerias
 - npm install -D tailwindcss postcss autoprefixer
+- npx tailwindcss init
 
 *Creamos la capera src and public con sus css and archivos
 - traveltailwind/src/css/tailwind.css
