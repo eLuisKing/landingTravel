@@ -11,12 +11,23 @@
     <title>Travel</title>
 </head>
 <body>
-    <h1 class="text-3xl font-bold font-Montserrat">Hola Mundo</h1>
-    <div class="w-24 h-24 bg-black"></div>
-    <div class="m-8 flex gap-8">
-        <div class="h-24 w-24 bg-primary"></div>
-        <div class="h-24 w-24 bg-primary"></div>
-        <div class="h-24 w-24 bg-primary"></div>
-      </div>
+    <nav></nav>
+    <div id="tab_bar"></div>
+    <section class="w-full h-screen">
+        <div id="home">
+            <div class="w-full h-3/4">
+                <div class="w-full h-full flex flex-col absolute space-y-96 py-4 items-center">
+                    <input class="outline-none p-3 rounded-full shadow-md" placeholder="Buscar" type="search" name="" id="">
+                    <button class="text-xl font-semibold text-primary shadow-sm p-3 rounded-full w-32 bg-white">Explorar</button>
+                </div>
+                <div class="w-full h-full">
+                    <img src="./img/sanFrancisco.jpg" alt="Background San francisco">
+                </div>
+            </div>
+        </div>
+        <div id="recomendadas"></div>
+        <div id="rentas_destacadas"></div>
+    </section>
+    <footer></footer>
 </body>
 </html>
