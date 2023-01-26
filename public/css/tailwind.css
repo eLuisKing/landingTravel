@@ -529,13 +529,21 @@ video {
   width: 6rem;
 }
 
-.gap-56 {
-  gap: 14rem;
+.gap-8 {
+  gap: 2rem;
 }
 
 .bg-primary {
   --tw-bg-opacity: 1;
-  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+  background-color: rgb(204 45 74 / var(--tw-bg-opacity));
+}
+
+.bg-miami {
+  background-image: url('../img/miami.jpg');
+}
+
+.font-Montserrat {
+  font-family: Montserrat, sans-serif;
 }
 
 .text-3xl {
@@ -545,16 +553,4 @@ video {
 
 .font-bold {
   font-weight: 700;
-}
-
-.underline {
-  text-decoration-line: underline;
-}
-
-.overline {
-  text-decoration-line: overline;
-}
-
-.line-through {
-  text-decoration-line: line-through;
 }
