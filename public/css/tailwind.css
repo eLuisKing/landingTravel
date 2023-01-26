@@ -16,7 +16,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: #e5e7eb;
+  border-color: currentColor;
   /* 2 */
 }
 
@@ -513,17 +513,29 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.h-8 {
-  height: 2rem;
+.m-8 {
+  margin: 2rem;
 }
 
-.w-96 {
-  width: 24rem;
+.flex {
+  display: flex;
 }
 
-.bg-black {
+.h-24 {
+  height: 6rem;
+}
+
+.w-24 {
+  width: 6rem;
+}
+
+.gap-56 {
+  gap: 14rem;
+}
+
+.bg-primary {
   --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
 }
 
 .text-3xl {
@@ -537,4 +549,12 @@ video {
 
 .underline {
   text-decoration-line: underline;
+}
+
+.overline {
+  text-decoration-line: overline;
+}
+
+.line-through {
+  text-decoration-line: line-through;
 }
