@@ -21,3 +21,11 @@
 .subt-card{
     @apply  text-white;
 }
+
+.card-destacadas{
+    @apply w-full h-96 bg-cover rounded-xl p-8;
+}
+
+.title-card-destacadas{
+    @apply text-lg text-white font-semibold;
+}
