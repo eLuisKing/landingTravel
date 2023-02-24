@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es" class="scroll-smooth">
+<html lang="es" class="scroll-smooth dark">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,16 +10,16 @@
     <link rel="stylesheet" href="css/tailwind.css">
     <title>Travel</title>
 </head>
-<body class="font-Montserrat">
-    <nav class="w-full h-14 hidden p-3 bg-white p lg:flex justify-between">
+<body class="font-Montserrat dark:bg-gray900">
+    <nav class="w-full h-14 hidden p-3 bg-white fixed lg:flex z-10 justify-between dark:bg-gray800">
         <div class="w-auto h-auto">
-            <p class="font-bold text-primary text-xl">Travel page</p>
+            <p class="font-bold text-primary text-xl dark:text-white">Travel page</p>
         </div>
         <div class="w-auto h-auto flex gap-5">
-            <a class="font-bold text-primary text-xl" href="#recomendadas">Lugares</a>
-            <a class="font-bold text-primary text-xl" href="#rentas_destacadas">Estancias</a>
-            <a class="font-bold text-primary text-xl" href="#faqs">FAQs</a>
-            <a class="font-bold text-primary text-xl" href="#footer">Acerca de</a>
+            <a class="font-bold text-primary text-xl dark:text-white" href="#recomendadas">Lugares</a>
+            <a class="font-bold text-primary text-xl dark:text-white" href="#rentas_destacadas">Estancias</a>
+            <a class="font-bold text-primary text-xl dark:text-white" href="#faqs">FAQs</a>
+            <a class="font-bold text-primary text-xl dark:text-white" href="#footer">Acerca de</a>
         </div>
         <div class="w-auto h-auto flex gap-5">
             <a class="" href="#">
@@ -27,7 +27,7 @@
                     <path fill-rule="evenodd" d="M10.5 3.75a6.75 6.75 0 100 13.5 6.75 6.75 0 000-13.5zM2.25 10.5a8.25 8.25 0 1114.59 5.28l4.69 4.69a.75.75 0 11-1.06 1.06l-4.69-4.69A8.25 8.25 0 012.25 10.5z" clip-rule="evenodd" />
                 </svg>
             </a>
-            <a class="" href="#">
+            <a class="" id="moonWeb" href="#">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-7 h-9 fill-current text-primary">
                     <path fill-rule="evenodd" d="M9.528 1.718a.75.75 0 01.162.819A8.97 8.97 0 009 6a9 9 0 009 9 8.97 8.97 0 003.463-.69.75.75 0 01.981.98 10.503 10.503 0 01-9.694 6.46c-5.799 0-10.5-4.701-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 01.818.162z" clip-rule="evenodd" />
                 </svg>
@@ -55,12 +55,12 @@
             </div>
         </div>
         <div class="p-6" id="recomendadas">
-            <p class="text-xl font-semibold text-primary">Recomendados</p>
+            <p class="text-xl font-semibold text-primary dark:text-white">Recomendados</p>
 
             <div class="w-auto h-72 items-center mt-6 overflow-x-auto overflow-x-contain flex gap-6 overflow-y-hidden lg:justify-center">
                 <div class="card">
                     <div class="img-card bg-norway"> </div>
-                    <div class="cont-card bg-secondary">
+                    <div class="cont-card bg-secondary dark:bg-gray700">
                         <p class="title-card">Norway</p>
                         <p class="subt-card">Paisajes increibles</p>
                     </div>
@@ -68,7 +68,7 @@
     
                 <div class="card">
                     <div class="img-card bg-new_york"> </div>
-                    <div class="cont-card bg-tertiary">
+                    <div class="cont-card bg-tertiary dark:bg-gray600">
                         <p class="title-card">New York</p>
                         <p class="subt-card">La jungla de semento</p>
                     </div>
@@ -76,7 +76,7 @@
     
                 <div class="card">
                     <div class="img-card bg-yosemite"> </div>
-                    <div class="cont-card bg-secondary">
+                    <div class="cont-card bg-secondary dark:bg-gray700">
                         <p class="title-card">Yosemite</p>
                         <p class="subt-card">Un desacanso del mundo</p>
                     </div>
@@ -84,7 +84,7 @@
     
                 <div class="card">
                     <div class="img-card bg-seattle"> </div>
-                    <div class="cont-card bg-tertiary">
+                    <div class="cont-card bg-tertiary dark:bg-gray600">
                         <p class="title-card">Seatle</p>
                         <p class="subt-card">La gran ciudad</p>
                     </div>
@@ -92,7 +92,7 @@
     
                 <div class="card">
                     <div class="img-card bg-switzerland"> </div>
-                    <div class="cont-card bg-secondary">
+                    <div class="cont-card bg-secondary dark:bg-gray700">
                         <p class="title-card">Switezerland</p>
                         <p class="subt-card">Lo mejor del mundo</p>
                     </div>
@@ -101,7 +101,7 @@
         </div>
 
         <div class="w-full p-6 lg:p-14" id="rentas_destacadas">
-            <p class="text-xl font-semibold text-primary mb-5">Rentas destacadas</p>
+            <p class="text-xl font-semibold text-primary mb-5 dark:text-white">Rentas destacadas</p>
             <div class="flex flex-col gap-y-6 items-center justify-center">
                 <div class="card-destacadas bg-chicago lg:bg-center lg:h-96">
                     <p class="title-card-destacadas">Chicago</p>
@@ -153,23 +153,23 @@
         </div>
 
         <div id="faqs" class="w-full p-6 lg:p-14">
-            <p class="text-xl font-semibold text-primary mb-5">FAQs</p>
+            <p class="text-xl font-semibold text-primary mb-5 dark:text-white">FAQs</p>
             <div class="w-full h-full px-6 flex flex-col gap-y-4">
                 <div>
-                    <p class="text-primary text-md font-semibold">Metodos de Pago</p>
-                    <p class="text-sm pt-2">Aceptamos todo tipo de tarjetas MasterCard, America Xpress 
+                    <p class="text-primary text-md font-semibold dark:text-white">Metodos de Pago</p>
+                    <p class="text-sm pt-2 dark:text-white">Aceptamos todo tipo de tarjetas MasterCard, America Xpress 
                         y Visa.
                     </p>
                 </div>
                 <div>
-                    <p class="text-primary text-md font-semibold">Politica de Cancelacion</p>
-                    <p class="text-sm pt-2">Para devolucion del pago p/reservacion solo sera efectuado si
+                    <p class="text-primary text-md font-semibold dark:text-white">Politica de Cancelacion</p>
+                    <p class="text-sm pt-2 dark:text-white">Para devolucion del pago p/reservacion solo sera efectuado si
                         durante las 72 hrs. a la fecha de reserva, de lo contrario no se efectuara.
                     </p>
                 </div>
                 <div>
-                    <p class="text-primary text-md font-semibold">Servicios Extra</p>
-                    <p class="text-sm pt-2">Cada alojamiento cuenta con servicios extra tales como
+                    <p class="text-primary text-md font-semibold dark:text-white">Servicios Extra</p>
+                    <p class="text-sm pt-2 dark:text-white">Cada alojamiento cuenta con servicios extra tales como
                         experiencias, comidas, eventos entre otros estos pueden o no ser incluidos
                         dentro del costo de la estancia y los costos extra son relativos segun el
                         host.
@@ -177,11 +177,11 @@
                 </div>
             </div>
         </div>
-        <footer id="footer" class="w-full h-auto bg-gray p-6 space-y-2 pb-20 md:mb-2">
-            <p class="text-lg ">Acerca De</p>
-            <p class="text-sm text-gray">Trabaja con nosotros</p>
-            <p class="text-sm text-gray">Politica de privacidad</p>
-            <p class="text-sm text-gray">Terminos y Condiciones</p>
+        <footer id="footer" class="w-full h-auto bg-gray p-6 space-y-2 pb-20 md:mb-2 dark:bg-gray800">
+            <p class="text-lg dark:text-white">Acerca De</p>
+            <p class="text-sm text-gray dark:text-white">Trabaja con nosotros</p>
+            <p class="text-sm text-gray dark:text-white">Politica de privacidad</p>
+            <p class="text-sm text-gray dark:text-white">Terminos y Condiciones</p>
         </footer>
     </section>
     <div id="tab_bar" class="w-full h-16 bg-white fixed left-0 bottom-0 shadow-xl flex gap-8 justify-center items-center lg:hidden">
@@ -201,7 +201,7 @@
                 <path d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z" />
             </svg>              
         </a>
-        <button>
+        <button id="moonMovil">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-9 h-9 fill-current text-gray">
                 <path fill-rule="evenodd" d="M9.528 1.718a.75.75 0 01.162.819A8.97 8.97 0 009 6a9 9 0 009 9 8.97 8.97 0 003.463-.69.75.75 0 01.981.98 10.503 10.503 0 01-9.694 6.46c-5.799 0-10.5-4.701-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 01.818.162z" clip-rule="evenodd" />
             </svg>              
@@ -212,5 +212,6 @@
             </svg>              
         </a>
     </div>
+    <script src="darkmode.js"></script>
 </body>
 </html>

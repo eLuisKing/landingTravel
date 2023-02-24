@@ -1,11 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./public/index.html", "./src/**/*.{html,js}"],
+  darkMode: 'class', //or 'media' or 'class'
   theme: {
-    colors: {
-      primary: '#2563eb',
-      secundary: '#fef08a'
-    },
     extend: {
       backgroundImage: {
         'sanFrancisco': "url('../img/sanFrancisco.jpg')",
@@ -30,7 +27,11 @@ module.exports = {
 				'secondary': '#8FA206',
 				'tertiary': '#61AEC9',
 				'white': '#f8fafc',
-				'gray': "#f3f4f6"
+				'gray': "#f3f4f6",
+				'gray900': '#0f172a',
+				'gray800': '#1f2937',
+				'gray700': '#374151',
+				'gray600': '#4b5563'
 			}),
 			textColor:{
 				'primary': '#CC2D4A',
