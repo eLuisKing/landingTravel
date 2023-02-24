@@ -11,7 +11,34 @@
     <title>Travel</title>
 </head>
 <body class="font-Montserrat">
-    <nav></nav>
+    <nav class="w-full h-14 hidden p-3 bg-white p lg:flex justify-between">
+        <div class="w-auto h-auto">
+            <p class="font-bold text-primary text-xl">Travel page</p>
+        </div>
+        <div class="w-auto h-auto flex gap-5">
+            <a class="font-bold text-primary text-xl" href="#recomendadas">Lugares</a>
+            <a class="font-bold text-primary text-xl" href="#rentas_destacadas">Estancias</a>
+            <a class="font-bold text-primary text-xl" href="#faqs">FAQs</a>
+            <a class="font-bold text-primary text-xl" href="#footer">Acerca de</a>
+        </div>
+        <div class="w-auto h-auto flex gap-5">
+            <a class="" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-7 h-9 fill-current text-primary">
+                    <path fill-rule="evenodd" d="M10.5 3.75a6.75 6.75 0 100 13.5 6.75 6.75 0 000-13.5zM2.25 10.5a8.25 8.25 0 1114.59 5.28l4.69 4.69a.75.75 0 11-1.06 1.06l-4.69-4.69A8.25 8.25 0 012.25 10.5z" clip-rule="evenodd" />
+                </svg>
+            </a>
+            <a class="" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-7 h-9 fill-current text-primary">
+                    <path fill-rule="evenodd" d="M9.528 1.718a.75.75 0 01.162.819A8.97 8.97 0 009 6a9 9 0 009 9 8.97 8.97 0 003.463-.69.75.75 0 01.981.98 10.503 10.503 0 01-9.694 6.46c-5.799 0-10.5-4.701-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 01.818.162z" clip-rule="evenodd" />
+                </svg>
+            </a>
+            <a class="" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-7 h-9 fill-current text-gray">
+                    <path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z" clip-rule="evenodd" />
+                </svg>
+            </a>
+        </div>
+    </nav>
     <section class="w-full h-screen">
         <div id="home">
             <div class="w-full h-3/4">
@@ -125,7 +152,7 @@
             </div>
         </div>
 
-        <div class="w-full p-6 lg:p-14">
+        <div id="faqs" class="w-full p-6 lg:p-14">
             <p class="text-xl font-semibold text-primary mb-5">FAQs</p>
             <div class="w-full h-full px-6 flex flex-col gap-y-4">
                 <div>
@@ -150,7 +177,7 @@
                 </div>
             </div>
         </div>
-        <footer class="w-full h-auto bg-gray p-6 space-y-2 pb-20 md:mb-2">
+        <footer id="footer" class="w-full h-auto bg-gray p-6 space-y-2 pb-20 md:mb-2">
             <p class="text-lg ">Acerca De</p>
             <p class="text-sm text-gray">Trabaja con nosotros</p>
             <p class="text-sm text-gray">Politica de privacidad</p>
